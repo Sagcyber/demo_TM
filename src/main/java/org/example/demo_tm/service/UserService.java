@@ -3,10 +3,12 @@ package org.example.demo_tm.service;
 import org.example.demo_tm.dto.CreateUserDto;
 import org.example.demo_tm.entity.User;
 import org.example.demo_tm.repository.UserRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class UserService {
     
     private final UserRepository userRepository;
